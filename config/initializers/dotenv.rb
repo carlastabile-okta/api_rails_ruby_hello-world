@@ -1,0 +1,1 @@
+Dotenv.require_keys("PORT", "CLIENT_ORIGIN_URL", "SECRET_KEY_BASE")
