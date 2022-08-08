@@ -19,7 +19,7 @@ class MessagesController < ApplicationController
         api: "api_rails_ruby_hello-world",
         branch: "starter"
       },
-      text: "No access token required to get this #{action} message."
+      text: "This is a #{action} message."
     }
   end
 end
