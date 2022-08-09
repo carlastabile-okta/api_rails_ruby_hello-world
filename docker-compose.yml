@@ -1,0 +1,12 @@
+version: "3"
+services:
+  api:
+    build: .
+    image: api_rails_ruby_hello-world:starter
+    container_name: api_rails_ruby_hello-world_starter
+    stdin_open: true
+    tty: true
+    ports:
+      - 6060:6060
+    env_file:
+      - .env
