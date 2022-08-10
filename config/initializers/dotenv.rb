@@ -1,1 +1,1 @@
-Dotenv.require_keys("PORT", "CLIENT_ORIGIN_URL", "SECRET_KEY_BASE")
+Dotenv.require_keys("PORT", "CLIENT_ORIGIN_URL", "SECRET_KEY_BASE", "AUTH0_AUDIENCE", "AUTH0_DOMAIN")
