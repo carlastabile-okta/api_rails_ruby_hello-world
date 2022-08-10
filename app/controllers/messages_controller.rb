@@ -1,4 +1,6 @@
 class MessagesController < ApplicationController
+  before_action :authorize!, except: %i[public]
+  
   def public
     render json: dummy_response("public")
   end
